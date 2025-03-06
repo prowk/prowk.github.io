@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://prowk.github.io/</loc>
-    <lastmod>2025-03-06T10:02:55+08:00</lastmod>
+    <lastmod>2025-03-05T16:25:41+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -20,13 +20,10 @@
                 href="https://prowk.github.io/"
                 />
   </url><url>
-    <loc>https://prowk.github.io/post/</loc>
-    <lastmod>2025-03-06T10:02:55+08:00</lastmod>
-  </url><url>
-    <loc>https://prowk.github.io/p/second-try/</loc>
-    <lastmod>2025-03-06T10:02:55+08:00</lastmod>
-  </url><url>
     <loc>https://prowk.github.io/p/my-first-post/</loc>
+    <lastmod>2025-03-05T16:25:41+08:00</lastmod>
+  </url><url>
+    <loc>https://prowk.github.io/post/</loc>
     <lastmod>2025-03-05T16:25:41+08:00</lastmod>
   </url><url>
     <loc>https://prowk.github.io/archives/</loc>
