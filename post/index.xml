@@ -13,7 +13,15 @@
         <pubDate>Wed, 05 Mar 2025 16:25:41 +0800</pubDate>
         
         <guid>https://prowk.github.io/p/my-first-post/</guid>
-        <description>&lt;p&gt;一个小小测试，看看能否成功替换掉原有素材&lt;/p&gt;
+        <description>&lt;p&gt;历经断断续续的几天尝试，我终于搭建了自己的博客。虽然说不是自己手搓的框架架，只是一个简单的hugo+github page部署的方案，但也花费了我这个小白很大的心力。
+刚开始时我尝试的是hexo框架，但不知道为何，我一直无法替换掉默认主题。我用npm指令下载主题的话，主题文件会被下载在moduel文件夹，就算手动移动到theme文件夹下，修改了配置文件后来连本地预览都无法生效。于是我放弃了hexo，转而使用hugo进行尝试。
+但我到上传到github时又出现了问题，终端显示我无法正常进行git操作，22端口表示拒绝。我只好上网寻求帮助，发现改用443端口也许可行。在users/.ssh目录下打开或新建config文件。&lt;/p&gt;
+&lt;p&gt;Host github.com
+Hostname ssh.github.com
+Port 443&lt;/p&gt;
+&lt;p&gt;后面就可以了，不过git推送的时候又无法进行，我只好直接强制推送，完成了个人博客的最后一步。
+总之搭建个人博客这事还是需要多多参考其他人的做法，ai的话会帮你搜索整理别人的文章，但不一定准确，需要自己多加思考。
+目前博客需要完善的点：去除语言切换按钮；完善个人资料页面；vscode的markdown写作。&lt;/p&gt;
 </description>
         </item>
         
