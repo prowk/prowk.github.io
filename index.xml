@@ -7,21 +7,34 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Wed, 05 Mar 2025 16:25:41 +0800</lastBuildDate><atom:link href="https://prowk.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>My First Post</title>
-        <link>https://prowk.github.io/p/my-first-post/</link>
-        <pubDate>Wed, 05 Mar 2025 16:25:41 +0800</pubDate>
+        <lastBuildDate>Sun, 09 Mar 2025 10:37:24 +0800</lastBuildDate><atom:link href="https://prowk.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>A small try</title>
+        <link>https://prowk.github.io/p/a-small-try/</link>
+        <pubDate>Sun, 09 Mar 2025 10:37:24 +0800</pubDate>
         
-        <guid>https://prowk.github.io/p/my-first-post/</guid>
-        <description>&lt;p&gt;历经断断续续的几天尝试，我终于搭建了自己的博客。虽然说不是自己手搓的框架架，只是一个简单的hugo+github page部署的方案，但也花费了我这个小白很大的心力。
-刚开始时我尝试的是hexo框架，但不知道为何，我一直无法替换掉默认主题。我用npm指令下载主题的话，主题文件会被下载在moduel文件夹，就算手动移动到theme文件夹下，修改了配置文件后来连本地预览都无法生效。于是我放弃了hexo，转而使用hugo进行尝试。
-但我到上传到github时又出现了问题，终端显示我无法正常进行git操作，22端口表示拒绝。我只好上网寻求帮助，发现改用443端口也许可行。在users/.ssh目录下打开或新建config文件。&lt;/p&gt;
-&lt;p&gt;Host github.com
-Hostname ssh.github.com
-Port 443&lt;/p&gt;
-&lt;p&gt;后面就可以了，不过git推送的时候又无法进行，我只好直接强制推送，完成了个人博客的最后一步。
-总之搭建个人博客这事还是需要多多参考其他人的做法，ai的话会帮你搜索整理别人的文章，但不一定准确，需要自己多加思考。
-目前博客需要完善的点：去除语言切换按钮；完善个人资料页面；vscode的markdown写作。&lt;/p&gt;
+        <guid>https://prowk.github.io/p/a-small-try/</guid>
+        <description>&lt;h1 id=&#34;尝试一下markdown语法&#34;&gt;尝试一下markdown语法
+&lt;/h1&gt;&lt;h2 id=&#34;尝试1&#34;&gt;尝试1
+&lt;/h2&gt;&lt;p&gt;小标题生效否？&lt;/p&gt;
+&lt;h2 id=&#34;尝试2&#34;&gt;尝试2
+&lt;/h2&gt;&lt;p&gt;代码能否正常显示？&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello World&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;尝试3&#34;&gt;尝试3
+&lt;/h2&gt;&lt;p&gt;文字样式&lt;br&gt;
+vlog真&lt;strong&gt;王朝&lt;/strong&gt;好吧&lt;br&gt;
+vlog真王朝好吧&lt;br&gt;
+vlog真&lt;del&gt;王朝&lt;/del&gt;好吧&lt;/p&gt;
+&lt;h2 id=&#34;尝试4&#34;&gt;尝试4
+&lt;/h2&gt;&lt;p&gt;链接等等&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.google.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;谷歌&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
