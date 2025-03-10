@@ -18,4 +18,9 @@
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>a test</title>
+    <url>/2025/03/10/a-test/</url>
+    <content><![CDATA[<h2 id="Quick-start"><a href="#Quick-start" class="headerlink" title="Quick start"></a>Quick start</h2><h3 id="cpp程序"><a href="#cpp程序" class="headerlink" title="cpp程序"></a>cpp程序</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="code"><pre><span class="line">cout&lt;&lt;<span class="string">&quot;hello,world&quot;</span>;</span><br></pre></td></tr></table></figure></div>]]></content>
+  </entry>
 </search>
