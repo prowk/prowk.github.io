@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>onetry</title>
-    <url>/2025/03/11/onetry/</url>
-    <content><![CDATA[<h1 id="一个关于图片的尝试"><a href="#一个关于图片的尝试" class="headerlink" title="一个关于图片的尝试"></a>一个关于图片的尝试</h1><p><img lazyload src="/images/loading.svg" data-src="/image1.jpg" alt="image1"> </p>
+    <title>hexo图片无法加载的解决方案</title>
+    <url>/2025/03/11/firstblog/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>网上各类教程良莠不齐，大部分都是通过安装插件搞定的，本文不介绍相关原理，请放心食用。  </p>
+<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><h3 id="改-config-yml-文件"><a href="#改-config-yml-文件" class="headerlink" title="改_config.yml 文件"></a>改_config.yml 文件</h3><p>先将 _config.yml 文件中的 post_asset_folder 选项设为 true  </p>
+<div class="code-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder：true  </span><br></pre></td></tr></table></figure></div>
+
+
+<h3 id="下载插件"><a href="#下载插件" class="headerlink" title="下载插件"></a>下载插件</h3><p>在博客的文件夹下启动命令行，下载插件hexo-asset-img：  </p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-img --save</span><br></pre></td></tr></table></figure></div>
+
+<p>注意：是这个插件，不是hexo-asset-image  </p>
+<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><p>新建一个博客文章（markdown文件），前面的该文件会使你在新建时同时新建一个同名的文件夹，这个文件夹用于放照片，在source&#x2F;_posts目录下  </p>
+<div class="code-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new secondblog</span><br></pre></td></tr></table></figure></div>
+
+<p>这时候把你的照片放进名叫secondblog的文件夹，打开你的secondblog.md,在你想放图片的地方按以下格式书写:  </p>
+<div class="code-container" data-rel="Html"><figure class="iseeu highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;secondblog/image1.jpg&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>image1.jpg是我例子图片的名称，secondblog也是我指定的名字，你可以自行替换。再在终端输入hexo clean,hexo g,hexo s三步，预览一下本地是否可以显示图片，没问题的话hexo d推送至github即可  </p>
+<h3 id="补充说明"><a href="#补充说明" class="headerlink" title="补充说明"></a>补充说明</h3><p>本人写作用的是vscode，如果冲突的话请自行更换教程。<br>本人无法确定下载插件那一步是否受到科学上网影响，不行的话自行下载插件然后放在node_moduels文件夹下即可<br>第一步更改文件配置一定要做，然后如果你想自己手动创建博客文档也行，自己创同名文件夹放图片效果是相同的。  </p>
+<h3 id="放个图"><a href="#放个图" class="headerlink" title="放个图"></a>放个图</h3><style>.nhnagwnjeifr{}</style><img lazyload src="/images/loading.svg" data-src="/2025/03/11/firstblog/resource4.jpg" class="nhnagwnjeifr">  
+
+
+
+
+
+
 ]]></content>
+      <tags>
+        <tag>hexo踩坑</tag>
+      </tags>
   </entry>
 </search>
